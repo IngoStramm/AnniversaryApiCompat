@@ -2,7 +2,7 @@
 ## Title: !AnniversaryApiCompat
 ## Notes: Restores legacy addon API aliases for older addons and WeakAuras on Anniversary clients.
 ## Author: Ingo Stramm
-## Version: 1.0.0
+## Version: 1.0.1
 ## LoadOnDemand: 0
 
 Compat.lua
