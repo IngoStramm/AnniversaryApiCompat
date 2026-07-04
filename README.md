@@ -14,7 +14,7 @@ Recent clients expose these functions under `C_AddOns`, while older code often c
 
 ## Installation
 
-Download `!AnniversaryApiCompat.zip` from the latest GitHub Release and extract it into:
+Download `AnniversaryApiCompat.zip` from the latest GitHub Release and extract it into:
 
 ```text
 World of Warcraft/_anniversary_/Interface/AddOns/
