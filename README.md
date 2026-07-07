@@ -35,7 +35,7 @@ Do not use GitHub's green **Code > Download ZIP** button for installation. That 
 Built for WoW TBC Classic Anniversary client:
 
 ```text
-Interface: 20505
+Interface: 20506
 ```
 
 ## Notes
