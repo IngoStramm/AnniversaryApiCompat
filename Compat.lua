@@ -38,3 +38,24 @@ if addonApi then
     end
   end
 end
+
+local function createLegacyBigWigsAnchor(name)
+  local anchor = _G[name]
+
+  if anchor then
+    return anchor
+  end
+
+  anchor = CreateFrame("Frame", name, UIParent)
+  anchor:SetSize(1, 1)
+  anchor:SetClampedToScreen(false)
+  anchor:SetPoint("TOPLEFT", UIParent, "TOPLEFT", 9999, 9999)
+  anchor:Hide()
+
+  return anchor
+end
+
+if CreateFrame and UIParent then
+  createLegacyBigWigsAnchor("BigWigsAnchor")
+  createLegacyBigWigsAnchor("BigWigsEmphasizeAnchor")
+end

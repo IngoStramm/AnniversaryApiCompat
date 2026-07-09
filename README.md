@@ -9,6 +9,7 @@ Recent clients expose these functions under `C_AddOns`, while older code often c
 - Restores legacy aliases only when the global function is missing.
 - Covers common addon-management APIs such as `IsAddOnLoaded`, `EnableAddOn`, `DisableAddOn`, `LoadAddOn`, `GetAddOnInfo`, `GetAddOnMetadata`, and related dependency/load-state helpers.
 - Handles old and new `GetAddOnEnableState` argument order where possible.
+- Provides harmless legacy `BigWigsAnchor` and `BigWigsEmphasizeAnchor` frames for older WeakAuras that still index those globals.
 - Loads early because the addon folder starts with `!`.
 - Does not modify WeakAuras or any other addon files.
 
